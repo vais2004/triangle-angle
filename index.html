@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Is Triangle ?</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://kit.fontawesome.com/441a130e90.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="/favicon-32x32.png" type="image/x-icon">
+</head>
+<body>
+    <div class="navbar">
+        <nav class="navigation">
+            <div class="nav-brand">Tri-Anglo-Pedia</div>
+            <ul class="list-non-bullet nav-pills">
+                <li class="list-item-inline">
+                    <a class="link link-active" href="/index.html">Is Triangle</a><br>
+                </li>
+                <li class="list-item-inline">
+                    <a class="link" href="/quize.html">Quiz</a><br>
+                </li>
+                <li class="list-item-inline">
+                    <a class="link" href="/hypotenuse.html">Hypotenuse</a><br>
+                </li>
+                <li class="list-item-inline">
+                    <a class="link" href="/area.html">Area</a><br>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="process">
+        <h1>Is It Triangle or Not ?</h1><br>
+        <h3>Sum of All Three Angles Should be 180<sup>o</sup></h3><br>
+        
+        <label for="angle-1">Angle 1 (in degrees)</label><br>
+		<input type="number" class="angle-input" /><br>
+		
+        <label for="angle-2">Angle 2 (in degrees)</label><br>
+		<input type="number" class="angle-input" /><br>
+			
+		<label for="angle-3">Angle 3 (in degrees)</label><br>
+		<input type="number" class="angle-input" />	<br>
+			
+        <button class="button-primary" id="check-btn">Check</button><br>
+        <h2 id="check-triangle"></h2><br>
+    </div>
+    <script src="/triangle.js"></script>
+</body>
+</html>
