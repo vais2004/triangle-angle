@@ -7,7 +7,7 @@
     <title>Is Triangle ?</title>
     <link rel="stylesheet" href="/style.css">
     <script src="https://kit.fontawesome.com/441a130e90.js" crossorigin="anonymous"></script>
-    <link rel="shortcut icon" href="/favicon-32x32.png" type="image/x-icon">
+    
 </head>
 <body>
     <div class="navbar">
@@ -30,22 +30,16 @@
         </nav>
     </div>
 
-    <div class="process">
-        <h1>Is It Triangle or Not ?</h1><br>
-        <h3>Sum of All Three Angles Should be 180<sup>o</sup></h3><br>
-        
-        <label for="angle-1">Angle 1 (in degrees)</label><br>
-		<input type="number" class="angle-input" /><br>
-		
-        <label for="angle-2">Angle 2 (in degrees)</label><br>
-		<input type="number" class="angle-input" /><br>
-			
-		<label for="angle-3">Angle 3 (in degrees)</label><br>
-		<input type="number" class="angle-input" />	<br>
-			
-        <button class="button-primary" id="check-btn">Check</button><br>
-        <h2 id="check-triangle"></h2><br>
-    </div>
-    <script src="/triangle.js"></script>
+    <center>
+    <h1>Is Triangle?</h1><br>
+    <label for="angle1">angle1</label><br>
+    <input type="number" class="angle-input"/><br>
+    <label for="angle2">angle2</label><br>
+    <input type="number" class="angle-input"/><br>
+    <label for="angle3">angle3</label><br>
+    <input type="number" class="angle-input"/><br>
+    <button id="is-triangle-btn">Is Triangle?</button><br>
+    <div id="output"></div></center>
+    <script src="\triangle.js"></script>
 </body>
 </html>
