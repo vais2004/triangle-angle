@@ -12,7 +12,7 @@ body{
 }
 
 .navigation {
-    background-color: #7763f9;
+    background-color: #63a9f9;
     color: white;
     padding: 5px;   
     text-align: center;
@@ -70,7 +70,7 @@ body{
     row-gap: 1.5rem;
     margin: auto;
     background-color: #cbd5e1;
-    outline: #314455 double 5px;
+    outline: #6c58ed double 5px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
