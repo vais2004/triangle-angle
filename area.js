@@ -1,7 +1,7 @@
 const base = document.querySelector("#base");
 const height = document.querySelector("#height");
-const button = document.querySelector("#check-btn");
-const message = document.querySelector("#check-area");
+const button = document.querySelector(".btn-check");
+const message = document.querySelector("#output");
 
 button.addEventListener('click', function validate(){
     
