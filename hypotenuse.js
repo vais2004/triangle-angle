@@ -1,7 +1,7 @@
 const sideA = document.querySelector("#side-a");
 const sideB = document.querySelector("#side-b");
-const button = document.querySelector("#check-btn");
-const message = document.querySelector("#check-length");
+const button = document.querySelector(".btn-check");
+const message = document.querySelector("#output");
 
 button.addEventListener('click', function validate(){
     
