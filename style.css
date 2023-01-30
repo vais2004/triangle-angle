@@ -110,7 +110,7 @@ input{
     text-indent: 5px;
 }
 
-.button-primary{
+.btn-check{
     margin: auto;
     width: 8vw;
     height: 2.5rem;
@@ -125,12 +125,12 @@ input{
     border: 3px solid #f43f5e;
     margin-bottom: -2rem;
 }
-.button-primary:hover{
+.btn-check:hover{
     background-color: #f43f5e;
     color: white;
     border: 3px solid #f43f5e;
 }
-.button-primary:active{
+.btn-check:active{
     transform: scale(0.98);
     box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
 }
