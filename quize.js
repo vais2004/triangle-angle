@@ -16,5 +16,4 @@ button.addEventListener('click', function calculateScore(){
 		index++;
 	}
 	message.innerText = "Your score is : "+score+" !";
-
 });
