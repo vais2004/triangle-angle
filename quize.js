@@ -1,5 +1,5 @@
 const quizForm = document.querySelector(".quiz-form");
-const button = document.querySelector("#check-btn");
+const button = document.querySelector(".btn-check");
 const message = document.querySelector("#output");
 
 const answers = ["90","2-congruent-sides","equilateral-triangle","obtuse","180-degrees"];
@@ -18,9 +18,3 @@ button.addEventListener('click', function calculateScore(){
 	message.innerText = "Your score is : "+score+" !";
 
 });
-
-    
-
-
-
-
