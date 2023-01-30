@@ -1,26 +1,26 @@
-const angles = document.querySelectorAll(".angle-input");
-const button = document.querySelector("#check-btn");
-const message = document.querySelector("#check-triangle");
+const inputs = document.querySelectorAll(".angle-input");
+const isTriangleBtn = document.querySelector("#is-triangle-btn");
+const outputEl = document.querySelector(".output");
 
-button.addEventListener("click", function validate() {
-	if (angles[0].value <=0 || angles[1].value <=0 || angles[2].value <=0) {
-        message.innerText = "* Inputs should be Greater than Zero ! *";
-	} else {
-		const sumTriangle = sumOfAngles();
-		isTriangle(sumTriangle);
-	}
-});
-
-function sumOfAngles() {
-	const sum =
-		Number(angles[0].value) + Number(angles[1].value) + Number(angles[2].value);
-	return sum;
+function sumOfAngles(angle1, angle2, angle3) {
+  const sum = angle1 + angle2 + angle3;
+  return sum;
 }
 
-function isTriangle(angle){
-    if (angle === 180) {
-		message.innerText = "Yay ! It is an Triangle !!";
-	} else {
-		message.innerText = "Sorry Buddy ! Not a Triangle";
-	}
+function isTriangle() {
+  const sum = sumOfAngles(
+    Number(inputs[0].value),
+    Number(inputs[1].value),
+    Number(inputs[2].value)
+  );
+  if (sum === 180) {
+    console.log("Yay, the angles form a triangle!");
+    outputEl.innerText = "Yay, the angles form a triangle!";
+  } else {
+    console.log("Oh Oh! The angle doesn't form a triangle");
+    outputEl.innerText = "Oh Oh! The angle doesn't form a triangle";
+  }
 }
+
+isTriangleBtn.addEventListener("click", isTriangle);
+
